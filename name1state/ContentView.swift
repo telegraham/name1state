@@ -8,14 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var gameEngine = GameEngine()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+
+        Section(header: Text("Name 1 State").font(.largeTitle)) {
+            Text("Name at least one state that touches")
+            Text(gameEngine.currentState).font(.title)
+       }
     }
 }
 

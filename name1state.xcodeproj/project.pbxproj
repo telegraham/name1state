@@ -14,6 +14,8 @@
 		C6AA83E32C5D827A008D5235 /* name1stateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA83E22C5D827A008D5235 /* name1stateTests.swift */; };
 		C6AA83ED2C5D827A008D5235 /* name1stateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA83EC2C5D827A008D5235 /* name1stateUITests.swift */; };
 		C6AA83EF2C5D827A008D5235 /* name1stateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA83EE2C5D827A008D5235 /* name1stateUITestsLaunchTests.swift */; };
+		C6AA83FD2C5D8496008D5235 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA83FC2C5D8496008D5235 /* GameEngine.swift */; };
+		C6AA83FF2C5D84FD008D5235 /* StateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA83FE2C5D84FD008D5235 /* StateRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		C6AA83E82C5D827A008D5235 /* name1stateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = name1stateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6AA83EC2C5D827A008D5235 /* name1stateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = name1stateUITests.swift; sourceTree = "<group>"; };
 		C6AA83EE2C5D827A008D5235 /* name1stateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = name1stateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6AA83FC2C5D8496008D5235 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
+		C6AA83FE2C5D84FD008D5235 /* StateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		C6AA83CF2C5D8278008D5235 /* name1state */ = {
 			isa = PBXGroup;
 			children = (
+				C6AA83FB2C5D847F008D5235 /* GameEngine */,
 				C6AA83D02C5D8278008D5235 /* name1stateApp.swift */,
 				C6AA83D22C5D8278008D5235 /* ContentView.swift */,
 				C6AA83D42C5D827A008D5235 /* Assets.xcassets */,
@@ -127,6 +132,15 @@
 				C6AA83EE2C5D827A008D5235 /* name1stateUITestsLaunchTests.swift */,
 			);
 			path = name1stateUITests;
+			sourceTree = "<group>";
+		};
+		C6AA83FB2C5D847F008D5235 /* GameEngine */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA83FC2C5D8496008D5235 /* GameEngine.swift */,
+				C6AA83FE2C5D84FD008D5235 /* StateRepository.swift */,
+			);
+			path = GameEngine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6AA83D32C5D8278008D5235 /* ContentView.swift in Sources */,
+				C6AA83FF2C5D84FD008D5235 /* StateRepository.swift in Sources */,
+				C6AA83FD2C5D8496008D5235 /* GameEngine.swift in Sources */,
 				C6AA83D12C5D8278008D5235 /* name1stateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
